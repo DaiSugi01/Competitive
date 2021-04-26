@@ -108,4 +108,86 @@ t.right = TreeNode(2)
 //print(sumOfLeftLeaves(t))
 //print(diameterOfBinaryTree(t))
 //print(bstToGst(t))
-print(mergeTrees(t, t))
+//print(mergeTrees(t, t))
+
+//print(numTilePossibilities("AAABBC"))
+
+
+
+  let testTree1: BinaryNode<Int> = {
+    let rootNode = BinaryNode<Int>(value: 1)
+    let node1 = BinaryNode<Int>(value: 4)
+    let node2 = BinaryNode<Int>(value: 5)
+    let node3 = BinaryNode<Int>(value: 2)
+    let node4 = BinaryNode<Int>(value: 6)
+    let node5 = BinaryNode<Int>(value: 7)
+    
+    rootNode.leftChild = node1
+    rootNode.rightChild = node2
+    node1.leftChild = node3
+    node2.leftChild = node4
+    node2.rightChild = node5
+    return rootNode
+  }()
+  
+  let testArray1: [Int?] = [1, 4, 2, nil, nil, nil, 5, 6, nil, nil, 7, nil, nil]
+  
+  let testTree2: BinaryNode<Int> = {
+    let rootNode = BinaryNode<Int>(value: 7)
+    let node1 = BinaryNode<Int>(value: 1)
+    let node2 = BinaryNode<Int>(value: 9)
+    let node3 = BinaryNode<Int>(value: 0)
+    let node4 = BinaryNode<Int>(value: 5)
+    let node5 = BinaryNode<Int>(value: 8)
+    
+    rootNode.leftChild = node1
+    rootNode.rightChild = node2
+    node1.leftChild = node3
+    node1.rightChild = node4
+    node2.leftChild = node5
+    node2.rightChild = nil
+    return rootNode
+  }()
+  
+  let testArray2: [Int?] = [7, 1, 0, nil, nil, 5, nil, nil, 9, 8, nil, nil, nil]
+  
+  func testDeserializeArray1() {
+    var arr = Array(testArray1.reversed())
+    print(arr)
+    let deserializedArray = deserialize(&arr)
+  }
+  
+  func testDeserializeArray2() {
+    var arr = Array(testArray2.reversed())
+    print(arr)
+    let deserializedArray = deserialize(&arr)
+  }
+  
+
+
+
+testDeserializeArray1()
+testDeserializeArray2()
+func test<T>(_ arr: inout [T?]) -> BinaryNode<T>? {
+
+  var cnt = 0
+  func convert() -> BinaryNode<T>? {
+    guard let val = arr[cnt] else { return nil }
+    
+    let root = BinaryNode<T>(value: val)
+    cnt += 1
+    root.leftChild = convert()
+    cnt += 1
+    root.rightChild = convert()
+    return root
+  }
+
+//  var root = BinaryNode(value: arr[0]!)
+  let root = convert()
+  print(arr)
+  return root
+}
+
+var testArr = [7, 1, 0, nil, nil, 5, nil, nil, 9, 8, nil, nil, nil]
+print(test(&testArr))
+

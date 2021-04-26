@@ -48,6 +48,10 @@
 		0A6E346C2632294D00F09AFF /* 617.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E346B2632294D00F09AFF /* 617.swift */; };
 		0A6E346F26323A3700F09AFF /* 589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E346E26323A3700F09AFF /* 589.swift */; };
 		0A6E347226323BB400F09AFF /* 590.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E347126323BB400F09AFF /* 590.swift */; };
+		0A6E347626323D1800F09AFF /* 700.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E347526323D1800F09AFF /* 700.swift */; };
+		0A6E34792632416300F09AFF /* 1022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E34782632416300F09AFF /* 1022.swift */; };
+		0A6E347C26324CD900F09AFF /* 559.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E347B26324CD900F09AFF /* 559.swift */; };
+		0A6E348026325FA100F09AFF /* tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E347F26325FA100F09AFF /* tile.swift */; };
 		0A70F8B92627C7BF000842E0 /* 743_NetworkDelayTime .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70F8B82627C7BF000842E0 /* 743_NetworkDelayTime .swift */; };
 		0A70F8BD2627D3C7000842E0 /* DijkstraPQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70F8BC2627D3C7000842E0 /* DijkstraPQ.swift */; };
 		0A70F8C026281D5D000842E0 /* 787_CheapestFlightsWithinKStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70F8BF26281D5D000842E0 /* 787_CheapestFlightsWithinKStops.swift */; };
@@ -120,6 +124,10 @@
 		0A6E346B2632294D00F09AFF /* 617.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 617.swift; sourceTree = "<group>"; };
 		0A6E346E26323A3700F09AFF /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
 		0A6E347126323BB400F09AFF /* 590.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 590.swift; sourceTree = "<group>"; };
+		0A6E347526323D1800F09AFF /* 700.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 700.swift; sourceTree = "<group>"; };
+		0A6E34782632416300F09AFF /* 1022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1022.swift; sourceTree = "<group>"; };
+		0A6E347B26324CD900F09AFF /* 559.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 559.swift; sourceTree = "<group>"; };
+		0A6E347F26325FA100F09AFF /* tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tile.swift; sourceTree = "<group>"; };
 		0A70F8B82627C7BF000842E0 /* 743_NetworkDelayTime .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "743_NetworkDelayTime .swift"; sourceTree = "<group>"; };
 		0A70F8BC2627D3C7000842E0 /* DijkstraPQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraPQ.swift; sourceTree = "<group>"; };
 		0A70F8BF26281D5D000842E0 /* 787_CheapestFlightsWithinKStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 787_CheapestFlightsWithinKStops.swift; sourceTree = "<group>"; };
@@ -294,6 +302,9 @@
 				0A6E346B2632294D00F09AFF /* 617.swift */,
 				0A6E346E26323A3700F09AFF /* 589.swift */,
 				0A6E347126323BB400F09AFF /* 590.swift */,
+				0A6E347526323D1800F09AFF /* 700.swift */,
+				0A6E34782632416300F09AFF /* 1022.swift */,
+				0A6E347B26324CD900F09AFF /* 559.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -362,6 +373,14 @@
 			path = ShortestPath;
 			sourceTree = "<group>";
 		};
+		0A6E347E26325F9D00F09AFF /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E347F26325FA100F09AFF /* tile.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		0A70F8CA26298220000842E0 /* ShortestPath */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +410,7 @@
 		0A8418BB262103C400D5976C /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				0A6E347E26325F9D00F09AFF /* Mock */,
 				0A6E34102630CCDA00F09AFF /* Tree */,
 				0A6E340F2630CCCE00F09AFF /* Graph */,
 				0A6E33CE262BC82D00F09AFF /* DP */,
@@ -476,6 +496,7 @@
 				0A2F2ABE261936A80041DB19 /* Napsack.swift in Sources */,
 				0A8418AE2621035E00D5976C /* UF.swift in Sources */,
 				0A8418C326225DA000D5976C /* 134_GasStation.swift in Sources */,
+				0A6E347626323D1800F09AFF /* 700.swift in Sources */,
 				0A8418B32621036900D5976C /* Queue.swift in Sources */,
 				0A6E343A263155D200F09AFF /* 210.swift in Sources */,
 				0A6E33D5262BDFAE00F09AFF /* 746_MinCostClimbingStairs.swift in Sources */,
@@ -483,12 +504,14 @@
 				0A6E34252631143300F09AFF /* CyclicPermutation.swift in Sources */,
 				0A8418D42624DFA600D5976C /* 1029_TwoCityScheduling.swift in Sources */,
 				0A1AE684261E6A9300BF21BB /* Work.swift in Sources */,
+				0A6E347C26324CD900F09AFF /* 559.swift in Sources */,
 				0A6E346C2632294D00F09AFF /* 617.swift in Sources */,
 				0A6E345D2631702B00F09AFF /* 257.swift in Sources */,
 				0A2F2A9A261719280041DB19 /* LakeCounting.swift in Sources */,
 				0A6E345726316F3C00F09AFF /* 100.swift in Sources */,
 				0A1AE6CB261F963300BF21BB /* WhoIsMyParent.swift in Sources */,
 				0A6E342826311BB600F09AFF /* Town.swift in Sources */,
+				0A6E348026325FA100F09AFF /* tile.swift in Sources */,
 				0AF3592B2626639D00DE0C57 /* MSTImplementation.swift in Sources */,
 				0A1AE68F261E7FB500BF21BB /* QuickFindUF.swift in Sources */,
 				0A6E346626321A5A00F09AFF /* 1038.swift in Sources */,
@@ -505,6 +528,7 @@
 				0A6E347226323BB400F09AFF /* 590.swift in Sources */,
 				0A1AE692261E80F000BF21BB /* QuickUnionUF.swift in Sources */,
 				0A2F2AB72617D3B40041DB19 /* SarumansArmy.swift in Sources */,
+				0A6E34792632416300F09AFF /* 1022.swift in Sources */,
 				0A8418C6262318FE00D5976C /* 763_PartitionLabels.swift in Sources */,
 				0A70F8C32628F3AC000842E0 /* 1334_FindtheCityWiththeSmallestNumberofNeighborsatAThresholdDistance.swift in Sources */,
 				0A2F2A8B2617184D0041DB19 /* main.swift in Sources */,
