@@ -1,7 +1,7 @@
 # LeetCode questions and solutions
 
 ## <span style="color: #43A048;">Easy
-- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) ([Solution](LeetCode/Tree/l_7.py))
+- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) ([Solution](Tree/l_7.py))
 - [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) ([Solution](Daisug/Competitive/python/LeetCode/BFS/l_111.py))
 - [112. Path Sum](https://leetcode.com/problems/path-sum/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_112.py))
 - [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) ([Solution](Daisug/Competitive/python/LeetCode/DFS/l_559.py))
