@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/leaf-similar-trees/
 from typing import List
-from LeetCode import TreeNode
+from LeetCode.utils import TreeNode
 
 
 def leaf_similar(root1: TreeNode, root2: TreeNode) -> bool:

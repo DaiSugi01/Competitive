@@ -1,7 +1,8 @@
-import TreeNode
+# https://leetcode.com/problems/binary-tree-inorder-traversal/
+from LeetCode.utils import TreeNode
 from typing import List
 
-# https://leetcode.com/problems/binary-tree-inorder-traversal/
+
 def inorder_traversal(root: TreeNode) -> List[int]:
 
     res: List[int] = []
