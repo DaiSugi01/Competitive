@@ -19,8 +19,8 @@
 ## <span style="color: yellow;">Medium
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_2.py))
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) ([Solution](Daisug/Competitive/python/LeetCode/String/l_3.py))
-- [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) ([Solution](Daisug/Competitive/python/LeetCode/BFS/l_111.py))
-- [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_101.py))
+- [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) ([Solution](Daisug/Competitive/python/LeetCode/BFS/l_102.py))
+- [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_103.py))
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_105.py))
 - [133. Clone Graph](https://leetcode.com/problems/clone-graph/) ([Solution](Daisug/Competitive/python/LeetCode/BFS/l_133.py))
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) ([Solution](Daisug/Competitive/python/LeetCode/BFS/l_200.py))
