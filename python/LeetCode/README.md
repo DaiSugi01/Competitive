@@ -3,16 +3,16 @@
 ## <span style="color: #43A048;">Easy
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_7.py))
 - [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) ([Solution](Daisug/Competitive/python/LeetCode/BFS/l_111.py))
+- [112. Path Sum](https://leetcode.com/problems/path-sum/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_112.py))
 - [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) ([Solution](Daisug/Competitive/python/LeetCode/DFS/l_559.py))
 - [690. Employee Importance](https://leetcode.com/problems/employee-importance/) ([Solution](Daisug/Competitive/python/LeetCode/DFS/l_690.py))
 - [733. Flood Fill](https://leetcode.com/problems/flood-fill/) ([Solution](Daisug/Competitive/python/LeetCode/DFS/l_733.py))
 - [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) ([Solution](Daisug/Competitive/python/LeetCode/String/l_804.py))
 - [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) ([Solution](Daisug/Competitive/python/LeetCode/DFS/l_872.py))
+- [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_938.py))
 - [985. Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) ([Solution](Daisug/Competitive/python/LeetCode/Others/l_985.py))
 - [1592. Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) ([Solution](Daisug/Competitive/python/LeetCode/String/l_1592.py))
 - [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) ([Solution](Daisug/Competitive/python/LeetCode/String/l_1678.py))
-- [112. Path Sum](https://leetcode.com/problems/path-sum/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_112.py))
-- [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) ([Solution](Daisug/Competitive/python/LeetCode/Tree/l_938.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Daisug/Competitive/python/LeetCode/Tree/l_111.py&#41;&#41;)
 
