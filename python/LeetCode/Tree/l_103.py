@@ -28,10 +28,8 @@ def zigzag_level_order(root: TreeNode) -> List[List[int]]:
             continue
         if is_reverse:
             temp.reverse()
-            res.append(temp)
-            is_reverse = not is_reverse
-        else:
-            res.append(temp)
-            is_reverse = not is_reverse
+
+        res.append(temp)
+        is_reverse = not is_reverse
 
     return res
