@@ -14,6 +14,7 @@
 - [985. Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) ([Solution](Others/l_985.py))
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) ([Solution](Others/l_1480.py))
 - [1592. Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) ([Solution](String/l_1592.py))
+- [1603. Design Parking System](https://leetcode.com/problems/design-parking-system/) ([Solution](Design/l_1603.py))
 - [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) ([Solution](Others/l_1672.py))
 - [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) ([Solution](String/l_1678.py))
 
@@ -30,6 +31,8 @@
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) ([Solution](BFS/l_200.py))
 - [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) ([Solution](Graph/l_310.py))
 - [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) ([Solution](LinkedList/l_328.py))
+- [1302. Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) ([Solution](Tree/l_1302.py))
+- [1315. Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) ([Solution](Tree/l_1315.py))
 - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) ([Solution](BFS/l_1379.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
