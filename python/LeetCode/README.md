@@ -45,6 +45,9 @@
 20. [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) ([Solution](Greedy/l_1167.py))
 21. [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) ([Solution](Graph/l_323.py))
 22. [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) ([Solution](Greedy/l_56.py))
+23. [953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) ([Solution](String/l_953.py))
+24. [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) ([Solution](Design/l_1570.py))
+25. [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) ([Solution](String/l_1249.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
