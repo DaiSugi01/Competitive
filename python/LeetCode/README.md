@@ -18,6 +18,7 @@
 15. [1603. Design Parking System](https://leetcode.com/problems/design-parking-system/) ([Solution](Design/l_1603.py))
 16. [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) ([Solution](Others/l_1672.py))
 17. [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) ([Solution](String/l_1678.py))
+18. [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) ([Solution](Design/l_359.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
 
@@ -41,7 +42,9 @@
 17. [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) ([Solution](BFS/l_1379.py))
 18. [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/) ([Solution](LinkedList/l_1472.py))
 19. [1783. Grand Slam Titles](https://leetcode.com/problems/grand-slam-titles/) ([Solution](SQL/l_1783.sql))
-20. [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) ([Solution](Greedy/l_1167.sql))
+20. [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) ([Solution](Greedy/l_1167.py))
+21. [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) ([Solution](Graph/l_323.py))
+22. [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) ([Solution](Greedy/l_56.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
