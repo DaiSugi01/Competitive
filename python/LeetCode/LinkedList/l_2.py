@@ -6,47 +6,25 @@ class ListNode:
 
 
 def add_two_numbers(l1: ListNode, l2: ListNode) -> ListNode:
-    def add_two_numbers_helper(hl1: ListNode, hl2: ListNode, add: int = 0) -> ListNode:
-        if hl1 is None and hl2 is None:
-            if add > 0:
-                return ListNode(1)
-            else:
-                return None
+    new_l = ListNode()
+    curr = new_l
+    new_l.next = curr
+    carry: int = 0
 
-        val: int = 0
-        if add > 0:
-            val += 1
+    while l1 or l2:
+        x1: int = l1.val if l1 else 0
+        x2: int = l2.val if l2 else 0
 
-        if hl1 is None:
-            val += hl2.val
-            if val >= 10:
-                add = 1
-                val -= 10
-            else:
-                add = 0
-            root = ListNode(val)
-            root.next = add_two_numbers_helper(hl1, hl2.next, add)
-        elif hl2 is None:
-            val += hl1.val
-            if val >= 10:
-                add = 1
-                val -= 10
-            else:
-                add = 0
-            root = ListNode(val)
-            root.next = add_two_numbers_helper(hl1.next, hl2, add)
-        else:
-            val += hl1.val + hl2.val
-            if val >= 10:
-                add = 1
-                val -= 10
-            else:
-                add = 0
+        value: int = (x1 + x2 + carry) % 10
+        carry: int = (x1 + x2 + carry) // 10
 
-            root = ListNode(val)
-            root.next = add_two_numbers_helper(hl1.next, hl2.next, add)
+        curr.next = ListNode(value)
+        curr = curr.next
 
-        return root
+        l1 = l1.next if l1 else None
+        l2 = l2.next if l2 else None
 
-    node = add_two_numbers_helper(l1, l2)
-    return node
+    if carry:
+        curr.next = ListNode(carry)
+
+    return new_l.next

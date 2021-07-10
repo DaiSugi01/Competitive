@@ -19,6 +19,10 @@
 16. [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) ([Solution](Others/l_1672.py))
 17. [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) ([Solution](String/l_1678.py))
 18. [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) ([Solution](Design/l_359.py))
+19. [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) ([Solution](String/l_680.py))
+20. [415. Add Strings](https://leetcode.com/problems/add-strings/) ([Solution](String/l_415.py))
+21. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) ([Solution](Tree/l_226.py))
+22. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) ([Solution](LinkedList/l_206.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
 
@@ -48,6 +52,12 @@
 23. [953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) ([Solution](String/l_953.py))
 24. [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) ([Solution](Design/l_1570.py))
 25. [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) ([Solution](String/l_1249.py))
+26. [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) ([Solution](String/l_371.py))
+27. [260. Single Number III](https://leetcode.com/problems/single-number-iii/) ([Solution](String/l_260.py))
+28. [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) ([Solution](DFS/l_366.py))
+29. [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) ([Solution](LinkedList/l_445.py))
+30. [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) ([Solution](LinkedList/l_445.py))
+31. [137. Single Number II](https://leetcode.com/problems/single-number-ii/) ([Solution](String/l_137.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)

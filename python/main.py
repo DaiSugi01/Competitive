@@ -1,59 +1,97 @@
-from typing import Dict
+from typing import List
+
+# https://leetcode.com/problems/power-of-two/solution/
+def isPowerOfTwo(n: int) -> bool:
+    if n == 0:
+        return False
+
+    return n & (n - 1) == 0
 
 
-def a():
-    pass
+# https://leetcode.com/problems/is-subsequence/
+def isSubsequence(self, s: str, t: str) -> bool:
+    i: int = 0
+    j: int = 0
 
+    while j < len(t) and i < len(s):
+        if s[i] == t[j]:
+            i += 1
+        j += 1
 
-def create_user_obj(user_info) -> Dict:
+    return i == len(s)
+
+def searchInsert(nums: List[int], target: int) -> int:
+    left: int = 0
+    right: int = len(nums) - 1
+
+    while left <= right:
+        mid: int = (left + right) // 2
+
+        if nums[mid] == target:
+            return mid
+        elif target > nums[mid]:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    return left
+
+from itertools import chain
+def reverseWords(s: List[str]) -> None:
     """
-    Create user object
-    :param user_info: user data retrieved from database
-    :return: user information object
+    Do not return anything, modify s in-place instead.
     """
-    user = {}
+    def reverse(l: int, r: int):
+        while l <= r:
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
 
-    user['user_id'] = user_info['user_id'] if 'user_id' in user_info else ''
+    def reverse_each_word():
+        length: int = len(s)
+        left: int = 0
+        right: int = 0
 
-    user['user_first_name'] = user_info['user_first_name'] \
-        if 'user_first_name' in user_info else ''
+        while left < length:
+            if right == length or s[right] == ' ':
+                reverse(left, right - 1)
+                left = right + 1
 
-    user['user_last_name'] = user_info['user_last_name'] \
-        if 'user_last_name' in user_info else ''
+            right += 1
 
-    user['user_image_path'] = user_info['user_image_path'] \
-        if 'user_image_path' in user_info else ''
+    reverse(0, len(s)-1)
+    print(s)
+    reverse_each_word()
 
-    user['user_birth'] = user_info['user_birth'] \
-        if 'user_birth' in user_info else ''
+def findLength(nums1: List[int], nums2: List[int]) -> int:
+    nums1.sort()
+    nums2.sort()
+    print(nums1)
+    print(nums2)
 
-    user['user_email'] = user_info['user_email'] \
-        if 'user_email' in user_info else ''
+    # [1, 1, 2, 2, 3]
+    # [1, 2, 3, 4, 7]
 
-    user['user_phone'] = user_info['user_phone'] \
-        if 'user_phone' in user_info else ''
+    res: int = 0
+    curr: int = 0
+    i: int = 0
+    j: int = 0
+    while i < len(nums1) and len(nums2):
+        if nums1[i] == nums2[j]:
+            curr += 1
+            i += 1
+            j += 1
+            continue
 
-    user['user_parent_first_name'] = user_info['user_parent_first_name'] \
-        if 'user_parent_first_name' in user_info else ''
+        if nums1[i] > nums2[j]:
+            j += 1
+        else:
+            i += 1
+        res = max(res, curr)
 
-    user['user_parent_last_name'] = user_info['user_parent_last_name'] \
-        if 'user_parent_last_name' in user_info else ''
-
-    user['user_parent_email'] = user_info['user_parent_email'] \
-        if 'user_parent_email' in user_info else ''
-
-    user['user_parent_phone'] = user_info['user_parent_phone'] \
-        if 'user_parent_phone' in user_info else ''
-
-    user['user_type'] = user_info['user_type'] \
-        if 'user_type' in user_info else ''
-
-    user['created_date'] = user_info['created_date'] \
-        if 'created_date' in user_info else ''
-
-    user['updated_date'] = user_info['updated_date'] \
-        if 'updated_date' in user_info else ''
-
+    return res
 
 if __name__ == '__main__':
-    pass
+    nums1 = [1, 2, 3, 2, 1]
+    nums2 = [3, 2, 1, 4, 7]
+    print(findLength(nums1, nums2))
