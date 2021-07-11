@@ -23,6 +23,9 @@
 20. [415. Add Strings](https://leetcode.com/problems/add-strings/) ([Solution](String/l_415.py))
 21. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) ([Solution](Tree/l_226.py))
 22. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) ([Solution](LinkedList/l_206.py))
+23. [1474. Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) ([Solution](LinkedList/l_1474.py))
+24. [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) ([Solution](LinkedList/l_21.py))
+25. [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/) ([Solution](LinkedList/l_83.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
 
@@ -58,6 +61,8 @@
 29. [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) ([Solution](LinkedList/l_445.py))
 30. [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) ([Solution](LinkedList/l_445.py))
 31. [137. Single Number II](https://leetcode.com/problems/single-number-ii/) ([Solution](String/l_137.py))
+32. [1265. Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) ([Solution](LinkedList/l_1265.py))
+33. [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) ([Solution](LinkedList/l_1669.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
