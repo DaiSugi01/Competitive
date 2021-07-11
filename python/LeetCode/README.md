@@ -63,6 +63,8 @@
 31. [137. Single Number II](https://leetcode.com/problems/single-number-ii/) ([Solution](String/l_137.py))
 32. [1265. Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) ([Solution](LinkedList/l_1265.py))
 33. [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) ([Solution](LinkedList/l_1669.py))
+34. [1490. Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/) ([Solution](Tree/l_1490.py))
+35. [1874. Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/) ([Solution](Greedy/l_1874.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)

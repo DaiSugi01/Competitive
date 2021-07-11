@@ -91,7 +91,45 @@ def findLength(nums1: List[int], nums2: List[int]) -> int:
 
     return res
 
+
+def merge_sort(nums: List[int]) -> List[int]:
+    if len(nums) <= 1:
+        return nums
+
+    mid: int = len(nums) // 2
+    left: List[int] = nums[:mid]
+    right: List[int] = nums[mid:]
+
+    merge_sort(left)
+    merge_sort(right)
+
+    i = j = k = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            nums[k] = left[i]
+            i += 1
+        else:
+            nums[k] = right[j]
+            j += 1
+        k += 1
+
+    while i < len(left):
+        nums[k] = left[i]
+        i += 1
+        k += 1
+
+    while j < len(right):
+        nums[k] = right[j]
+        j += 1
+        k += 1
+
+    return nums
+
+
 if __name__ == '__main__':
-    nums1 = [1, 2, 3, 2, 1]
-    nums2 = [3, 2, 1, 4, 7]
-    print(findLength(nums1, nums2))
+    # nums1 = [1, 2, 3, 2, 1]
+    # nums2 = [3, 2, 1, 4, 7]
+    # print(findLength(nums1, nums2))
+    import random
+    numbers = [random.randint(0, 100) for _ in range(10)]
+    print(merge_sort(numbers))
