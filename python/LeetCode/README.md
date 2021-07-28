@@ -26,6 +26,10 @@
 23. [1474. Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) ([Solution](LinkedList/l_1474.py))
 24. [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) ([Solution](LinkedList/l_21.py))
 25. [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/) ([Solution](LinkedList/l_83.py))
+26. [1507. Reformat Date](https://leetcode.com/problems/reformat-date/submissions/) ([Solution](String/l_1508.py))
+27. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) ([Solution](Others/l_88.py))
+28. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) ([Solution](String/l_20.py))
+29. [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) ([Solution](Greedy/l_252.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
 
@@ -65,6 +69,10 @@
 33. [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) ([Solution](LinkedList/l_1669.py))
 34. [1490. Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/) ([Solution](Tree/l_1490.py))
 35. [1874. Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/) ([Solution](Greedy/l_1874.py))
+36. [143. Reorder List](https://leetcode.com/problems/reorder-list/) ([Solution](LinkedList/l_143.py))
+37. [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) ([Solution](BFS/l_1197.py))
+38. [79. Word Search](https://leetcode.com/problems/word-search/) ([Solution](String/l_79.py))
+39. [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) ([Solution](Greedy/l_253.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
