@@ -30,6 +30,8 @@
 27. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) ([Solution](Others/l_88.py))
 28. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) ([Solution](String/l_20.py))
 29. [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) ([Solution](Greedy/l_252.py))
+30. [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) ([Solution](String/l_557.py))
+31. [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) ([Solution](String/l_1614.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
 
@@ -63,7 +65,7 @@
 27. [260. Single Number III](https://leetcode.com/problems/single-number-iii/) ([Solution](String/l_260.py))
 28. [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) ([Solution](DFS/l_366.py))
 29. [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) ([Solution](LinkedList/l_445.py))
-30. [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) ([Solution](LinkedList/l_445.py))
+30. [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) ([Solution](Greedy/l_881.py))
 31. [137. Single Number II](https://leetcode.com/problems/single-number-ii/) ([Solution](String/l_137.py))
 32. [1265. Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) ([Solution](LinkedList/l_1265.py))
 33. [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) ([Solution](LinkedList/l_1669.py))
@@ -73,6 +75,11 @@
 37. [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) ([Solution](BFS/l_1197.py))
 38. [79. Word Search](https://leetcode.com/problems/word-search/) ([Solution](String/l_79.py))
 39. [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) ([Solution](Greedy/l_253.py))
+40. [1094. Car Pooling](https://leetcode.com/problems/car-pooling/submissions/) ([Solution](Greedy/l_1094.py))
+41. [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) ([Solution](String/l_6.py))
+42. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) ([Solution](String/l_49.py))
+43. [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements) ([Solution](Array/l_658.py))
+44. [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) ([Solution](Tree/l_298.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)

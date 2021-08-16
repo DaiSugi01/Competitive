@@ -125,11 +125,26 @@ def merge_sort(nums: List[int]) -> List[int]:
 
     return nums
 
+def solution(angles):
+    stack = []
+    close_count = 0
+    for angle in angles:
+        if angle == '<':
+            stack.append(angle)
+        elif not stack:
+            close_count += 1
+        else:
+            stack.pop()
+
+    return '<' * close_count + angles + '>' * len(stack)
+
 
 if __name__ == '__main__':
     # nums1 = [1, 2, 3, 2, 1]
     # nums2 = [3, 2, 1, 4, 7]
     # print(findLength(nums1, nums2))
-    import random
-    numbers = [random.randint(0, 100) for _ in range(10)]
-    print(merge_sort(numbers))
+    # import random
+    # numbers = [random.randint(0, 100) for _ in range(10)]
+    # print(merge_sort(numbers))
+    print(solution("><<><"))
+    # print(solution("<><<><>>"))
