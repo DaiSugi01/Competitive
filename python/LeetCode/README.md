@@ -32,6 +32,8 @@
 29. [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) ([Solution](Greedy/l_252.py))
 30. [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) ([Solution](String/l_557.py))
 31. [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) ([Solution](String/l_1614.py))
+32. [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) ([Solution](Math/l_9.py))
+33. [1408. String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) ([Solution](String/l_1408.py))
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
 
@@ -80,6 +82,8 @@
 42. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) ([Solution](String/l_49.py))
 43. [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements) ([Solution](Array/l_658.py))
 44. [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) ([Solution](Tree/l_298.py))
+45. [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) ([Solution](Greedy/l_1647.py))
+46. [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) ([Solution](Array/l_531.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
