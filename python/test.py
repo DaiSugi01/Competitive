@@ -1,4 +1,3 @@
-
 def solution(angles):
     stack = []
     res = []
