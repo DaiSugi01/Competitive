@@ -14,13 +14,9 @@ def reformatDate(self, date: str) -> str:
         "Nov": "11",
         "Dec": "12",
     }
-    is_two_digit = len(date) >= 13
-    year = date[-4:]
-    if len(date) >= 13:
-        month = d[date[5:-5]]
-        day = date[0:2]
-    else:
-        month = d[date[4:-5]]
-        day = "0" + date[0:1]
+    day, month, year = date.split(' ')
+    month = d[month]
+    day = day[len(day) // 2]
+    day = day if len(day) > 1 else '0' + day
 
     return year + '-' + month + '-' + day

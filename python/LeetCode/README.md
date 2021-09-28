@@ -87,6 +87,7 @@
 47. [1762. Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/) ([Solution](Array/l_1762.py))
 48. [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) ([Solution](Greedy/l_1689.py))
 49. [1769. Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) ([Solution](Array/l_1769.py))
+50. [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) ([Solution](Tree/l_98.py))
 
 
 [comment]: <> (- []&#40;&#41; &#40;[Solution]&#40;Tree/l_111.py&#41;&#41;)
