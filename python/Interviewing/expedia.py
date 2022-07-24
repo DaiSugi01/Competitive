@@ -9,14 +9,12 @@ def sol(tools: List[str], target: str, startIndex: int):
 
         right = abs(startIndex - i)
         left = abs(len(tools) - startIndex) + i
-        current_min = min(right, left)
-        minimum = min(minimum, current_min)
+        minimum = min(minimum, min(right, left))
 
     return minimum
 
 
 if __name__ == '__main__':
-    tools = ["a", "b", "c", "d", "f", "c"]
-    
+    tools = ["a", "c", "c", "d", "f", "g"]
     startIndex = 4
     print(sol(tools, "c", startIndex))

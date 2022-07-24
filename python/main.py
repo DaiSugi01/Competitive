@@ -156,21 +156,21 @@ def solution2(angles) -> bool:
 
 
 if __name__ == '__main__':
-    # nums1 = [1, 2, 3, 2, 1]
-    # nums2 = [3, 2, 1, 4, 7]
-    # print(findLength(nums1, nums2))
-    # import random
-    # numbers = [random.randint(0, 100) for _ in range(10)]
-    # print(merge_sort(numbers))
-    # print(solution2("><><"))
+    nums1 = [1, 2, 3, 2, 1]
+#     # nums2 = [3, 2, 1, 4, 7]
+#     # print(findLength(nums1, nums2))
+#     # import random
+#     # numbers = [random.randint(0, 100) for _ in range(10)]
+#     # print(merge_sort(numbers))
+#     # print(solution2("><><"))
     print(solution2("<><><>"))
-    m = {
-        'a': 5,
-        'f': 2,
-        'c': 1,
-        'd': 3,
-        'h': 4,
-    }
-    # a = { k: v for k, v in sorted(m.items(), key=lambda x: -x[1]) }
-    # for i in a.values():
-    #     print(i)
+#     m = {
+#         'a': 5,
+#         'f': 2,
+#         'c': 1,
+#         'd': 3,
+#         'h': 4,
+#     }
+#     # a = { k: v for k, v in sorted(m.items(), key=lambda x: -x[1]) }
+#     # for i in a.values():
+#     #     print(i)
