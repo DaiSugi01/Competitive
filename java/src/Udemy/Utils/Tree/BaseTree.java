@@ -11,7 +11,7 @@ public class BaseTree {
         _printPostorder(this.root);
     }
 
-    public void _printPostorder(Node node) {
+    private void _printPostorder(Node node) {
         if (node == null) return;
 
         _printPreorder(node.left);
@@ -23,7 +23,7 @@ public class BaseTree {
         _printInorder(root);
     }
 
-    public void _printInorder(Node node) {
+    private void _printInorder(Node node) {
         if (node == null) return;
 
         System.out.println(node.value);
