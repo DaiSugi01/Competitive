@@ -12,7 +12,16 @@ public class TreeUtils<T> {
         root.left = new TreeNode<>(9);
         root.right = new TreeNode<>(20);
         root.right.left = new TreeNode<>(15);
-        root.right.right = new TreeNode<>(7);
+        root.right.right = new TreeNode<>(1);
+        return root;
+    }
+
+    public static TreeNode createBST(int[] nodes) {
+        TreeNode<Integer> root = new TreeNode<Integer>(3);
+        root.left = new TreeNode<>(9);
+        root.right = new TreeNode<>(20);
+        root.right.left = new TreeNode<>(15);
+        root.right.right = new TreeNode<>(1);
         return root;
     }
 }

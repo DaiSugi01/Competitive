@@ -1,4 +1,4 @@
-package LeetCode.BFS;
+package LeetCode.BFSDFS;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -13,9 +13,12 @@ public class WallsAndGates_286 {
             new int[]{0, -1},
     };
 
+    public static void main(String[] args) {
+    }
+
     public void wallsAndGates(int[][] rooms) {
         int m = rooms.length;
-        if (m ==0 ) return;
+        if (m == 0) return;
         int n = rooms[0].length;
         Queue<int[]> q = new LinkedList<>();
 
@@ -24,8 +27,5 @@ public class WallsAndGates_286 {
             }
         }
 
-    }
-
-    public static void main(String[] args) {
     }
 }
