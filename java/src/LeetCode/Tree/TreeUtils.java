@@ -13,6 +13,7 @@ public class TreeUtils<T> {
         root.right = new TreeNode<>(20);
         root.right.left = new TreeNode<>(15);
         root.right.right = new TreeNode<>(1);
+        root.right.right.right = new TreeNode<>(4);
         return root;
     }
 

@@ -8,13 +8,9 @@ public class ArrayPartition_561 {
         Output: 9
 
         Sort the nums -> [1,2,2,5,6,6]
-        loop through nums (nums / 2 times)
-        use two pointers i, j
+        loop through nums, each time, add +2 to iterator
         [1,2,2,5,6,6]
-
-        Output: 9
-        [6,2,6,5,1,2]
-
+         i + i + i
      */
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
