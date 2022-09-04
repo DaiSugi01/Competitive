@@ -6,7 +6,7 @@ public class SumNodesEvenValuedGrandparent_1315 {
     int res;
 
     public int sumEvenGrandparent(TreeNode<Integer> root) {
-        dfs(root, 0, false, false);
+        dfs(root, false, false);
         return res;
     }
 
