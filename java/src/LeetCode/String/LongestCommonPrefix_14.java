@@ -2,7 +2,7 @@ package LeetCode.String;
 
 public class LongestCommonPrefix_14 {
     public static void main(String[] args) {
-        System.out.println(longestCommonPrefix(new String[]{"flower", "aaa", "flight"}));
+        System.out.println(longestCommonPrefix2(new String[]{"c", "acc", "ccc"}));
     }
 
     public static String longestCommonPrefix(String[] strs) {
@@ -49,5 +49,15 @@ public class LongestCommonPrefix_14 {
         }
 
         return prefix;
+    }
+
+    public static String longestCommonPrefix2(String[] strs) {
+        StringBuffer commonPrefix = new StringBuffer(strs[0]);
+        for (String s : strs) {
+            while (commonPrefix.length() > 0 && s.indexOf(commonPrefix.toString()) != 0) {
+                commonPrefix.delete(commonPrefix.length() - 1, commonPrefix.length());
+            }
+        }
+        return commonPrefix.toString();
     }
 }
