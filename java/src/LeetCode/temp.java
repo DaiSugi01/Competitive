@@ -4,6 +4,9 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class temp {
+    int[] preorder;
+    int id;
+
     public static void main(String[] args) {
 
     }
@@ -37,5 +40,44 @@ public class temp {
         }
 
         return pq.isEmpty() ? 0 : pq.poll();
+    }
+
+    private TreeNode helper(int low, int hi) {
+        if (id == preorder.length) return null;
+
+        int val = preorder[id];
+        if (val < low || val > hi) return null;
+
+        TreeNode root = new TreeNode(val);
+        root.left = helper(low, val);
+        root.right = helper(val, hi);
+
+        return root;
+    }
+
+    public TreeNode bstFromPreorder(int[] preorder) {
+        this.preorder = preorder;
+        this.id = 0;
+        return helper(Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }
