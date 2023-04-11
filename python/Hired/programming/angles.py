@@ -9,7 +9,8 @@ def add_angle(angles: str):
         else:
             stack.append(a)
 
-    print(f"{'<' * open_count}{angles}{'>' * len(stack)}")
+    print(f"{'<' * open_count}{angles}"
+          f"{'>' * len(stack)}")
 
 
 if __name__ == '__main__':
@@ -18,5 +19,6 @@ if __name__ == '__main__':
     add_angle(angle)
 
 
-# ><<><
-# <><<><>>
+#   <><<><>>
+#   [<<]
+#   1
