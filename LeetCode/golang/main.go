@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	sol "leet.com/leet/easy/3386_Button_with_Longest_Push_Time"
+	sol "leet.com/leet/easy/3364_Minimum_Positive_Sum_Subarray"
 )
 
 func main() {
@@ -25,5 +25,9 @@ func main() {
 	//))
 	//fmt.Println(sol.MinimumOperations([]int{2, 2, 6, 13, 6, 13}))
 	//fmt.Println(sol.CountSubarrays([]int{-1, -4, -1, 4}))
-	fmt.Println(sol.ButtonWithLongestTime([][]int{{8, 4}, {7, 6}, {19, 9}, {8, 14}, {13, 15}, {2, 16}, {2, 18}}))
+	//fmt.Println(sol.ButtonWithLongestTime([][]int{{8, 4}, {7, 6}, {19, 9}, {8, 14}, {13, 15}, {2, 16}, {2, 18}}))
+	//fmt.Println(sol.SmallestNumber(5))
+	//fmt.Println(sol.MinimumSumSubarray([]int{17, 13}, 1, 2))
+	//fmt.Println(sol.Gpt([]int{-5, 2, -4, -1, 3}, 2, 4))
+	fmt.Println(sol.Gpt2([]int{2, 2, 2}, 2, 3, 5))
 }
