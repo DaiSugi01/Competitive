@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	sol "leet.com/leet/easy/3364_Minimum_Positive_Sum_Subarray"
+	sol "leet.com/leet/easy/3314_Construct_the_Minimum_Bitwise_Array_I"
 )
 
 func main() {
@@ -29,5 +29,14 @@ func main() {
 	//fmt.Println(sol.SmallestNumber(5))
 	//fmt.Println(sol.MinimumSumSubarray([]int{17, 13}, 1, 2))
 	//fmt.Println(sol.Gpt([]int{-5, 2, -4, -1, 3}, 2, 4))
-	fmt.Println(sol.Gpt2([]int{2, 2, 2}, 2, 3, 5))
+	//fmt.Println(sol.Gpt2([]int{2, 2, 2}, 2, 3, 5))
+	//fmt.Println(sol.CountValidSelections([]int{1, 0, 2, 0, 3}))
+	//fmt.Println(sol.MaxProduct(31))
+	//fmt.Println(sol.HasIncreasingSubarrays([]int{2, 5, 7, 8, 9, 2, 3, 4, 3, 1}, 3))
+	//fmt.Println(sol.HasIncreasingSubarrays([]int{-15, 19}, 1))
+	//fmt.Println(sol.SmallestNumber(1, 2))
+	//fmt.Println(sol.IsBalanced("24123"))
+	//fmt.Println(sol.PossibleStringCount("abbcccc"))
+	//fmt.Println(sol.FindXSum([]int{1, 1, 2, 2, 3, 4, 2, 3}, 6, 2))
+	fmt.Println(sol.MinBitwiseArray([]int{41, 23}))
 }
