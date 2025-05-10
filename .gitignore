@@ -1,1 +1,4 @@
 /java/out/* 
+
+# IntelliJ/IDEA の設定一式を無視
+.idea/
