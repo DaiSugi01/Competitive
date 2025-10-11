@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	sol "leet.com/leet/easy/3314_Construct_the_Minimum_Bitwise_Array_I"
+	sol "leet.com/leet/easy/2544_Alternating_Digit_Sum"
 )
 
 func main() {
@@ -38,5 +38,13 @@ func main() {
 	//fmt.Println(sol.IsBalanced("24123"))
 	//fmt.Println(sol.PossibleStringCount("abbcccc"))
 	//fmt.Println(sol.FindXSum([]int{1, 1, 2, 2, 3, 4, 2, 3}, 6, 2))
-	fmt.Println(sol.MinBitwiseArray([]int{41, 23}))
+	//fmt.Println(sol.MinBitwiseArray([]int{41, 23}))
+	//fmt.Println(sol.MinOperations("110"))
+	//fmt.Println(sol.MergeNodes(sol.NewListNode()))
+	//fmt.Println(sol.FindArray([]int{5, 2, 0, 3, 1}))
+	//fmt.Println(sol.CountMaxOrSubsets([]int{3, 2, 1, 5}))
+	//sol.ScoreOfString("hello")
+	//sol.MaxFreqSum("og")
+	//sol.MaxFreqSum("og")
+	fmt.Println(sol.AlternateDigitSum())
 }
