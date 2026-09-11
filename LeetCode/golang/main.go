@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
-	sol "leet.com/leet/easy/2544_Alternating_Digit_Sum"
+	//sol "leet.com/leet/easy/"
+	sol "leet.com/leet/mid/2375_Construct_Smallest_Number_From_DI_String"
 )
 
 func main() {
@@ -46,5 +46,10 @@ func main() {
 	//sol.ScoreOfString("hello")
 	//sol.MaxFreqSum("og")
 	//sol.MaxFreqSum("og")
-	fmt.Println(sol.AlternateDigitSum())
+	//fmt.Println(sol.RemoveZeros(1))
+	//fmt.Println(sol.MaxAlternatingSum([]int{1, 2, 3}))
+	//fmt.Println(sol.CountStableSubarrays([]int{5, 5, 5, -2, -2, -2}))
+	//fmt.Println(sol.LexSmallest("dcab"))
+	//fmt.Println(sol.MySqrt())
+	sol.Sol()
 }
