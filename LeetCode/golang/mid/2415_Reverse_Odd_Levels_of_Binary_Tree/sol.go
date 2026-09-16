@@ -99,12 +99,12 @@ func reverseOddLevelsDfs(root *TreeNode) *TreeNode {
 }
 
 func Sol() {
-	printTree(reverseOddLevelsDfs(buildTree([]int{2, 3, 5, 8, 13, 21, 34})))
+	printTree(reverseOddLevelsDfs(BuildTree([]int{2, 3, 5, 8, 13, 21, 34})))
 	fmt.Println("")
-	printTree(reverseOddLevels(buildTree([]int{0, 1, 2, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2})))
+	printTree(reverseOddLevels(BuildTree([]int{0, 1, 2, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2})))
 }
 
-func buildTree(vals []int) *TreeNode {
+func BuildTree(vals []int) *TreeNode {
 	if len(vals) == 0 {
 		return nil
 	}

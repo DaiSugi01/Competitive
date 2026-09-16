@@ -2,7 +2,7 @@ package main
 
 import (
 	//sol "leet.com/leet/easy/"
-	sol "leet.com/leet/mid/3895_Count_Digit_Appearances"
+	sol "leet.com/leet/easy/2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum"
 )
 
 func main() {
